@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6b0022/T/v1
+canonical_location: https://kanripo.org/bkk/KR6b0022/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 德光太子經
+  identifiers:
+    krp: KR6b0022
+    cbeta: T03n0170
+    cbeta_old_id: T03n0170
+    authorityid: CA0001929
+    json_key: T0170
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T03/T03n0170.xml
+    old_id: T03n0170
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6b0022_000-T.yaml, hash: 'sha256:9007b69159c18a70e03f3764e6f3942437dd3ab5c1925064c1c1ac0486bb4d15'}
+  - {seq: 1, filename: KR6b0022_001-T.yaml, hash: 'sha256:30fc1c49766d9db4fda28ee2caf49042d56ddb42e7f6b599c1a4ac5db1991e5a'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6b0022_000-T.markers.yaml, hash: 'sha256:6902dc3637e414e0fe91d072ca6b420d14b8cddfd631ad6413e5dfdb71c6b4f9'}
+  - {seq: 1, role: markers, filename: assets/KR6b0022_001-T.markers.yaml, hash: 'sha256:dd4888708fb5d7050f314a6542efeeee7e66367d5cc5605343630b696640cade'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6b0022_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 8361
+  label: 佛說德光太子經
+  type: juan
+  level: 1
+hash: sha256:041e29776f5059314c67ab2f442533e77d59c9b71c77ea6d591f8d783f3de9a8
