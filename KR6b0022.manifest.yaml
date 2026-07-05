@@ -34,9 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6b0022_000.yaml, hash: 'sha256:9007b69159c18a70e03f3764e6f3942437dd3ab5c1925064c1c1ac0486bb4d15'}
-  - {seq: 1, filename: KR6b0022_001.yaml, hash: 'sha256:008e52eea67c6b25d746782bb5dc073e93774967ea5bea8f761e7ff7aab5fa8c'}
+  - {seq: 1, filename: KR6b0022_001.yaml, hash: 'sha256:30fc1c49766d9db4fda28ee2caf49042d56ddb42e7f6b599c1a4ac5db1991e5a'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6b0022_001.markers.yaml, hash: 'sha256:ad912da7bdfbeb53d620ec95619eb846d22cc00dfd0cd3b1c72735872589b368'}
+  - {seq: 0, role: markers, filename: assets/KR6b0022_000.markers.yaml, hash: 'sha256:b3c5cac4b817f395a061f540a40a56eb30dda469fe96d69d8657aa49ee81dc51'}
+  - {seq: 1, role: markers, filename: assets/KR6b0022_001.markers.yaml, hash: 'sha256:1bc409840e52c7990f5ec83c672d193ec8857a3cf7579c2b06042f69d72a0a97'}
 table_of_contents:
 - ref:
     seq: 1
@@ -48,7 +49,4 @@ table_of_contents:
   label: 佛說德光太子經
   type: juan
   level: 1
-hash: sha256:ffca6d6219b2d0e467911e0ac99a05a8019641a83a78fb4695f601fbb49dd38d
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:5769aa72683053861beb9bed44c3c2e4b4d09b481714bac609b58483ff9ee674
