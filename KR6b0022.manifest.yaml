@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6b0022/v1
 canonical_location: https://kanripo.org/bkk/KR6b0022/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 德光太子經
   identifiers:
@@ -34,10 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6b0022_000.yaml, hash: 'sha256:9007b69159c18a70e03f3764e6f3942437dd3ab5c1925064c1c1ac0486bb4d15'}
-  - {seq: 1, filename: KR6b0022_001.yaml, hash: 'sha256:30fc1c49766d9db4fda28ee2caf49042d56ddb42e7f6b599c1a4ac5db1991e5a'}
+  - {seq: 1, filename: KR6b0022_001.yaml, hash: 'sha256:8395d401757f1282f8ba21998af96063dc2e47863222a89863877b50f14915a1'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6b0022_000.markers.yaml, hash: 'sha256:b3c5cac4b817f395a061f540a40a56eb30dda469fe96d69d8657aa49ee81dc51'}
-  - {seq: 1, role: markers, filename: assets/KR6b0022_001.markers.yaml, hash: 'sha256:1bc409840e52c7990f5ec83c672d193ec8857a3cf7579c2b06042f69d72a0a97'}
+  - {seq: 1, role: markers, filename: assets/KR6b0022_001.markers.yaml, hash: 'sha256:81d60f2df18b80e27ffc05de7a6f382c7582a46927b3b83032d16e5c76a950a2'}
 table_of_contents:
 - ref:
     seq: 1
@@ -49,4 +49,7 @@ table_of_contents:
   label: 佛說德光太子經
   type: juan
   level: 1
-hash: sha256:5769aa72683053861beb9bed44c3c2e4b4d09b481714bac609b58483ff9ee674
+hash: sha256:bb674499cb7d94ae63826f4d86832c4b3dd03d47346d82fafa8c266475ef8842
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
